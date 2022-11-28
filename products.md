@@ -91,11 +91,15 @@ Standard libraries provide high-level convenience API for working with bitcoin, 
 
 ## Documentation
 
-|   |   |   |
-| - | - | - |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+| Title                 | Website              | Description                                                    |
+| --------------------- | -------------------- | -------------------------------------------------------------- |
+| LNP/BP Standards      | standards.lnp-bp.org |                                                                |
+| RGB Yellowpaper       | yellowpaper.rgb.tech |                                                                |
+| RGB Blueprint         | blueprint.rgb.tech   |                                                                |
+| RGB Blackpaper        | blackpaper.rgb.tech  |                                                                |
+| Contractum specs      | contractum.org       | Language specifications                                        |
+| AluVM specs           | aluvm.org            | Specification of virtual machine                               |
+| Strict encoding specs | strict-encoding.org  | Specification of strict encoding type system and serialization |
 
 ## Contributions to external projects
 
