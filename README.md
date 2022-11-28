@@ -11,7 +11,15 @@ layout: landing
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><h3>Standardize</h3></td><td>Create and maintain standards &#x26; public registries</td><td>See the current list of standards and registries</td></tr><tr><td><h3>Implement</h3></td><td>Sponsor opensource reference implementations of libraries, nodes &#x26; tools</td><td>See the list of our libraries, nodes and tools</td></tr><tr><td><h3>Educate</h3></td><td>Educate community and ensure alignment with cypherpunk values</td><td>See our values and community standards</td></tr></tbody></table>
 
-## Products
+## Values
+
+|                                |                                                                                                                                                                                                                       |
+| ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <h3>Censorship-resistance</h3> | Ability to transact is a form of free speech. All operations with LNP/BP must be censorship-resistant, leveraging bitcoin PoW qualities and decentralized networks as much as possible.                               |
+| <h3>Privacy</h3>               | Bitcoin and blockchains lacks privacy by showing transaction graphs and allowing chainanalysis. The new tech must be based on zk-proofs and client-side-validation to give the control over privacy back to the user. |
+| <h3>Layerization</h3>          | Separation of concerns & abstraction are cornerstones in developing and maintaining secure, extensible protocols and software                                                                                         |
+
+## Activities
 
 The Association fulfills its mission through creating and managing products, which include [standards](products.md#standards), [registries](products.md#registries), [libraries](products.md#libraries), [nodes](products.md#nodes), [command-line tools](products.md#toolchains) and [documentation](products.md#documentation).
 
@@ -21,13 +29,7 @@ The association products cover three main verticals:
 
 ### Maintained protocols
 
-|              |                                                                                                       |
-| ------------ | ----------------------------------------------------------------------------------------------------- |
-| RGB          | Scalable & confidential smart contracts with client-side-validation                                   |
-| Bifrost      | Lightning protocol extensions enabling Taproot, multi-peer channels, channel composability and RGB    |
-| Storm        | Decentralized data network, providing data propagation, storage & queries on top of Lightning/Bifrost |
-| Kaleidoscope | Decentralized exchange protocols (DEX) for Lightning with RGB and other forms of assets               |
-| Prometheus   | Trust-minimized distributed computing with Lightning network                                          |
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><h3>RGB</h3></td><td>Scalable &#x26; confidential smart contracts with client-side-validation</td></tr><tr><td><h3>Bifrost</h3></td><td>Lightning protocol extensions enabling Taproot, multi-peer channels, channel composability and RGB</td></tr><tr><td><h3>Storm</h3></td><td>Decentralized data network, providing data propagation, storage &#x26; queries on top of Lightning/Bifrost</td></tr><tr><td><h3>Kaleidoscope</h3></td><td>Decentralized exchange protocols (DEX) for Lightning with RGB and other forms of assets</td></tr><tr><td><h3>Prometheus</h3></td><td>Trust-minimized distributed computing with Lightning network</td></tr></tbody></table>
 
 ## Sponsors & contributors
 
