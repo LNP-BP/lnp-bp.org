@@ -53,12 +53,33 @@ These libraries are a part of the ossified client-side-validation consensus and 
 1. Client-side-validation foundation library&#x20;
 2. Bitcoin common libraries: implementation of parsing bitcoin data related to bitcoin consensus layer. Currently, there are split in two groups:
    1. Rust bitcoin ecosystem, maintained by Rust bitcoin community (mostly Blockstream members and Andrew Poelstra)
-   2. BP Foundation Libraries, maintained by LNP/BP Standards Association, Bitcoin Protocol Working Group. Contain re-implmenetaiton or improvements of the rust-bitcoin libraries
+   2. BP Foundation Libraries, maintained by LNP/BP Standards Association, Bitcoin Protocol Working Group. Contain re-implementation or improvements of the rust-bitcoin libraries
 3. Bitcoin client-side-validation, also called “BP Core Lib”. It provides primitives such as deterministic bitcoin commitments (“TapRet”, ”OpRet”) and single-use-seals.
+
+| Repo (crate)                  | GitHub Org      | Description                                                                      |
+| ----------------------------- | --------------- | -------------------------------------------------------------------------------- |
+| rust-lnpbp (lnpbp\_secp256k1) | LNP-BP          | Fork of Grin re-implementation of rust-secp256k1-zkp; used for bulletproofs only |
+| rust-stens (stens)            | Strict-Encoding | Data encoding used in RGB                                                        |
+| rust-aluvm (aluvm)            | AluVM           | Virtual machine used in RGB                                                      |
+| client\_side\_validation      | LNP-BP          | Abstract client-side-validation                                                  |
+| bp-foundation                 | BP-WG           | Bitcoin primitives (alternative to rust-bitcoin)                                 |
+| bp-core                       | BP-WG           | Client-side-validation for bitcoin protocol                                      |
+| rgb-core                      | RGB-WG          | RGB consensus library                                                            |
 
 ### Standard libraries
 
-Standard library (called RGB Std Lib) provides high-level convenience API for working with RGB data, but does not performs any consensus-level tasks. Any validation and RGB operations must perform without standard library, which enables use of RGB smart contract on embedded devices.
+Standard libraries provide high-level convenience API for working with bitcoin, lightning & RGB, and do not perform any consensus-level tasks. Any validation and consensus operations must perform without standard libraries.
+
+| Repo (crate)        | GitHub Org | Description                                                                                                                                   |
+| ------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| psbt                | BP-WG      | Implementation of partially-signed bitcoin transactions and operations with them involving signatures, support for client-side-validation etc |
+| descriptor-wallet   | BP-WG      | Primitives for constructing wallets supporting bitcoin, lightning and RGB protocols                                                           |
+| invoices            | LNP-BP     | Implementation of universal LNP/BP invoices standard                                                                                          |
+| rust-lnpbp (lnpbp)  | LNP-BP     | Implementation if LNPBP standards for Base64, Bech32, Elgamal encoding and encryption                                                         |
+| lightning\_encoding | LNP-WG     | Encoding for BOLT data used in lightning network                                                                                              |
+| lnp-core            | LNP-WG     | Implementation of both BOLT and LNPBP standards of lightning network                                                                          |
+| storm-core          | Storm-WG   | Implementation of Storm specifications and standards                                                                                          |
+| rgb-stdlib          | RGB-WG     | Convenience API for working with RGB smart contracts                                                                                          |
 
 ## Nodes
 
