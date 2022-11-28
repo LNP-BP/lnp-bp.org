@@ -37,7 +37,28 @@ The current list of standard can be found on a [dedicated website](https://app.g
 
 ## Libraries
 
+Libraries maintained by the Association can be classified into the following categories:
 
+1. Consensus libraries
+2. Standard library
+3. Node-related libraries
+4. Application-level libraries
+
+The dependencies between these groups are strongly abstracted into four layers, such that underlying group doesn’t know anything about the libraries from the layer above.
+
+### Consensus libraries
+
+These libraries are a part of the ossified client-side-validation consensus and must not be modified except of bugfixing. Usually, consensus-level libraries are named with “Core“ or “Foundation” as a part of their name.
+
+1. Client-side-validation foundation library&#x20;
+2. Bitcoin common libraries: implementation of parsing bitcoin data related to bitcoin consensus layer. Currently, there are split in two groups:
+   1. Rust bitcoin ecosystem, maintained by Rust bitcoin community (mostly Blockstream members and Andrew Poelstra)
+   2. BP Foundation Libraries, maintained by LNP/BP Standards Association, Bitcoin Protocol Working Group. Contain re-implmenetaiton or improvements of the rust-bitcoin libraries
+3. Bitcoin client-side-validation, also called “BP Core Lib”. It provides primitives such as deterministic bitcoin commitments (“TapRet”, ”OpRet”) and single-use-seals.
+
+### Standard libraries
+
+Standard library (called RGB Std Lib) provides high-level convenience API for working with RGB data, but does not performs any consensus-level tasks. Any validation and RGB operations must perform without standard library, which enables use of RGB smart contract on embedded devices.
 
 ## Nodes
 
