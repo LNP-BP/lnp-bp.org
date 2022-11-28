@@ -13,11 +13,7 @@ layout: landing
 
 ## Values
 
-|                                |                                                                                                                                                                                                                       |
-| ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <h3>Censorship-resistance</h3> | Ability to transact is a form of free speech. All operations with LNP/BP must be censorship-resistant, leveraging bitcoin PoW qualities and decentralized networks as much as possible.                               |
-| <h3>Privacy</h3>               | Bitcoin and blockchains lacks privacy by showing transaction graphs and allowing chainanalysis. The new tech must be based on zk-proofs and client-side-validation to give the control over privacy back to the user. |
-| <h3>Layerization</h3>          | Separation of concerns & abstraction are cornerstones in developing and maintaining secure, extensible protocols and software                                                                                         |
+<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><h3>Censorship-resistance</h3></td><td>Ability to transact is a form of free speech. All operations with LNP/BP must be censorship-resistant, leveraging bitcoin PoW qualities and decentralized networks as much as possible.</td></tr><tr><td><h3>Privacy</h3></td><td>Bitcoin and blockchains lacks privacy by showing transaction graphs and allowing chainanalysis. The new tech must be based on zk-proofs and client-side-validation to give the control over privacy back to the user.</td></tr><tr><td><h3>Layerization</h3></td><td>Separation of concerns &#x26; abstraction are cornerstones in developing and maintaining secure, extensible protocols and software</td></tr></tbody></table>
 
 ## Activities
 
