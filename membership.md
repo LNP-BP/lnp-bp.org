@@ -1,3 +1,7 @@
+---
+layout: editorial
+---
+
 # Membership
 
 Any for-profit company, non-profit organization, DAO or individual can become a member of the Association.
