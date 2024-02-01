@@ -22,7 +22,7 @@ Criteria for a LNPBP standard proposal:
 * Must not require a utility or security tokens to function (but may enable creation of digital assets or tokenized physical goods)
 * Must not depend on non-bitcoin blockchains (but may be applicable to other blockchains)
 
-The current list of standard can be found on a [dedicated website](http://localhost:5000/o/-MO35HartFKtUgrkgzLy/s/-Mchj8WVdEa0qze424CG/) or in GitHub repository [here](https://github.com/LNP-BP/LNPBPs). You can use GitHub discussions to:
+The current list of standard can be found on a [dedicated website](https://app.gitbook.com/o/-MO35HartFKtUgrkgzLy/s/-Mchj8WVdEa0qze424CG/) or in GitHub repository [here](https://github.com/LNP-BP/LNPBPs). You can use GitHub discussions to:
 
 * [submit](https://github.com/LNP-BP/LNPBPs/discussions/categories/standard-proposals) a new standard proposal
 * [discuss](https://github.com/LNP-BP/LNPBPs/discussions/categories/ideas) preliminary ideas about new standards
