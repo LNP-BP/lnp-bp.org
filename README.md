@@ -29,7 +29,7 @@ The association products cover three main verticals:
 
 The association is a non-profit running on funds from our donors. We would like to thank all who made it possible for us to continue operations through the past years.
 
-<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><h3>Fulgur Ventures</h3></td><td></td></tr><tr><td><h3>Bitfinex &#x26; Tether</h3></td><td></td></tr><tr><td><h3>Pandora Prime</h3></td><td></td></tr><tr><td><h3>Hojo Foundation</h3></td><td></td></tr><tr><td><h3>DIBA Inc</h3></td><td></td></tr><tr><td><h3>Private donors</h3></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><h3>Fulgur Ventures</h3></td><td></td></tr><tr><td><h3>Bitfinex &#x26; Tether</h3></td><td></td></tr><tr><td><h3>Pandora Prime</h3></td><td></td></tr><tr><td><h3>Hojo Foundation</h3></td><td></td></tr><tr><td><h3>DIBA Inc</h3></td><td></td></tr><tr><td><h3>Bitlight Labs</h3></td><td></td></tr><tr><td><h3>Private donors</h3></td><td></td></tr></tbody></table>
 
 Not all donors can be named, many of them are anonymous or would like to respect their privacy.
 
