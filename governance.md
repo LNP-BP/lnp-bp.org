@@ -17,7 +17,7 @@ The Association is governed by three parties:
 
 ## Board of Directors
 
-The Board of Directors is the supreme governing body of the Association. It is formed by the members of the Association (see [Membership](membership.md)). The directors:
+The Board of Directors is the supreme governing body of the Association. It is formed by the members of the Association (see [Membership](broken-reference)). The directors:
 
 1. Appoint the Chair for 2 years with 2/3 of the votes. The same Chair can be re-appointed multiple times.
 2. Remove the Chair with a vote of no confidence (which can be held once a year) with 75% of votes
